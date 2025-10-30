@@ -1,0 +1,59 @@
+# Install user if not installed
+
+# APT packages system
+curl
+openssh-server
+git
+python3
+python3-pip
+npm
+htop
+samba               # Freigabe
+
+
+tuxguitar
+
+# geary               # Mail Client Moderner 
+# thunderbird       # Mail Client Klassisch
+keepassxc           # Passwortverwaltung
+
+libreoffice         # Office - Text, Präsentation, Tabellen
+kalgebra            # KDE Edu Suite
+kgeography          # KDE Edu Suite
+kstars              # KDE Edu Suite
+gcompris            # Sammlung kleiner Lernspiele, Mathe, Logik, Sprachen
+scratch             # Programmieren Lernen mit Bauklötzen
+# squeak
+
+
+
+# Bilder
+########
+imagemagick
+shotwell
+blender
+gimp
+inkscape
+darktable
+kdenlive
+krita
+
+# Audio Apps and components
+############################
+
+audacity
+vlc
+#pipewire
+#pipewire-audio-clients
+#pipewire-jack
+#sonic-pi
+
+# Custom installations
+custom:vscode
+# custom:spotify
+custom:chrome
+
+custom:node
+custom:docker
+custom:powershell
+custom:drawio

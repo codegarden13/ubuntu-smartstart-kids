@@ -1,0 +1,15 @@
+# Logs and temporary output
+*.log
+*.tmp
+
+# other invisibles
+_unused/
+_notes.md
+
+# Personal notes or lists
+linkliste.txt
+
+# Editor/project files
+.vscode/
+*.swp
+.DS_Store
