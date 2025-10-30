@@ -97,7 +97,10 @@ Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen �
 
 ```bash
 # Auf einem frischen Ubuntu-System:
-git clone https://github.com/<dein-user>/ubuntu-setup.git
+git clone https://github.com/codegarden13/ubuntu-smartstart-kids.git
 cd ubuntu-setup
 chmod +x install.sh
 ./install.sh
+```
+
+... oder als ZIP herunterladen und klassisch (1990) herumstöbern. 🎸
