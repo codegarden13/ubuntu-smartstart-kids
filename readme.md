@@ -1,18 +1,25 @@
 # Ubuntu Setup Scripts
 
-Diese Sammlung von Shell-Skripten automatisiert die Konfiguration eines frischen Ubuntu-Rechners (z. B. für Workstations oder persönliche Setups).
+Shell-Skripte zu Konfiguration eines Ubuntu-Rechners (z. B. für Workstations oder persönliche Setups).
 
-## Inhalt
 
-Dieses Repository enthält ein Installations- und Einrichtungsskript für einen Ubuntu-Rechner, der für ein technisch und künstlerisch interessiertes Kind (ab ca. 10 Jahre) gedacht ist. Es richtet sich an Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen möchten.
+## 🎯 Zielgruppe
 
-- `install.sh` – Einstiegspunkt für die Installation
-- `install-browser.sh` – Installiert Firefox & Chromium
+Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen möchten.
+
+- **Erstes eigenes Notebook oder Desktop**
+- **Kinder und Jugendliche (ca. 10–14 Jahre)**
+- Interesse an **Technik, Kunst, Medien, Musik, Programmierung**
+- Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtigt)
+
+
+## Struktur
+
+- `install.sh` – Einstiegspunkt für die Installation, holt zu installiernde Komponenten aus einer Textdatei
+- Weitere `install-*.sh`- Dateien für Teilinstallationen
+- `uninstall.sh` – Entfernt installierte Komponenten / optional
+- `install-browser.sh` – Installiert Firefox & Chromium, Edge 
 - `configure-desktop.sh` – Passt GNOME-Einstellungen an
-- `uninstall.sh` – Entfernt installierte Komponenten
-- `inventory.txt` – Übersicht installierter Software
-- `_unused/` – Alte oder nicht mehr genutzte Skripte
-
 
 ## 🔐 Sicherheit & Verantwortung
 	•	Alle Tools stammen aus offiziellen Quellen oder sind als .deb geprüft eingebunden
@@ -20,18 +27,10 @@ Dieses Repository enthält ein Installations- und Einrichtungsskript für einen 
 	•	Eltern/Betreuende sollten Installationen einmal manuell überprüfen
 
 
-
-## 🎯 Zielgruppe
-
-- **Erstes eigenes Notebook oder Desktop**
-- **Kinder und Jugendliche (ca. 10–14 Jahre)**
-- Interesse an **Technik, Kunst, Medien, Musik, Programmierung**
-- Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtigt)
-
 ## 🔧 Was das Skript macht
 
 - Installiert wichtige **Systemwerkzeuge**
-- Fügt kreative, lehrreiche und sichere Software per `apt` hinzu
+- Fügt kreative, lehrreiche und sichere Software **nur** per `apt` hinzu
 - Nutzt **nur Paketquellen oder `.deb`-Installationen** – kein Snap, kein Flatpak
 - Vermeidet kommerzielle Cloud-Tools, wo möglich.
 
@@ -91,16 +90,6 @@ Dieses Repository enthält ein Installations- und Einrichtungsskript für einen 
 | `edge`    | Webbrowser für maximale Office/Teams-Kompatibilität |
 | `chrome`    | Webbrowser für Apps |
 | `firefox`    | Webbrowser für privacy|
-
----
-
-## 📦 Struktur
-
-- `install.sh` – zentrales Installationsskript
-- Weitere `install-*.sh`-Dateien für Teilinstallationen
-- `uninstall.sh` – optionales Deinstallationsskript
-- `inventory.txt` – Übersicht der installierten Tools
-- `linkliste.txt` – Empfehlungen oder Hilfeseiten
 
 ---
 
