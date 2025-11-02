@@ -1,8 +1,6 @@
 # Ubuntu Setup Scripts
 
-Shell-Skripte zu Konfiguration eines Ubuntu-Rechners (z. B. für Workstations oder persönliche Setups).
-
-🎯 Zielgruppe des Setups sind Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen möchten.
+Konfiguration eines Ubuntu-Rechners für Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen sollen.
 
 - **Erstes eigenes Notebook oder Desktop**
 - **Kinder und Jugendliche (ca. 10–14 Jahre)**
