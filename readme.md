@@ -2,16 +2,12 @@
 
 Shell-Skripte zu Konfiguration eines Ubuntu-Rechners (z. B. für Workstations oder persönliche Setups).
 
-
-## 🎯 Zielgruppe
-
-Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen möchten.
+🎯 Zielgruppe des Setups sind Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen möchten.
 
 - **Erstes eigenes Notebook oder Desktop**
 - **Kinder und Jugendliche (ca. 10–14 Jahre)**
 - Interesse an **Technik, Kunst, Medien, Musik, Programmierung**
 - Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtigt)
-
 
 ## Struktur
 
@@ -81,19 +77,19 @@ Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen �
 
 ---
 
-### Kommunikation & Schule
+### Kommunikation / Schule
 
-> ⚠️ Mail-Clients wie `geary` oder `thunderbird` sind **deaktiviert**, da viele Schulen Microsoft 365/Teams verwenden. Web-Apps in Chrome/Firefox sind oft die bessere Lösung für Kinder.
+> ⚠️ Mail-Clients wie `geary` oder `thunderbird` sind **deaktiviert**, da viele Schulen Microsoft 365/Teams verwenden. 
+> Das ist auch der Grund für Edge, der auch auf den Schulrechnern läuft. Die Lesezeichen lassen sich syncronisieren.
 
 | Tool        | Zweck                                 |
 |-------------|----------------------------------------|
 | `edge`    | Webbrowser für maximale Office/Teams-Kompatibilität |
-| `chrome`    | Webbrowser für Apps |
 | `firefox`    | Webbrowser für privacy|
 
 ---
 
-## 🛠️ Nutzung
+## 🛠️ Nutzung des Installationsscripts
 
 ```bash
 # Auf einem frischen Ubuntu-System:
