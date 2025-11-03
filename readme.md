@@ -2,12 +2,11 @@
 
 Konfiguration / Installation eines Ubuntu-Rechners als **erstes eigenes Notebook oder Desktop** für Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen sollen.
 
-- **Kinder und Jugendliche (ca. 10–14 Jahre)**
-- Interesse an **Technik, Kunst, Medien, Musik, Programmierung**
+## Fokus 
+- **Kinder und Jugendliche (ca. 10–14 Jahre)** 
+- Fokus Medienverständniss neben **Technik, Kunst, Medien, Musik, Programmierung**
 - Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtigt)
-
-- Installiert wichtige **Systemwerkzeuge**
-- Software **nur** per `apt`, **nur Paketquellen oder `.deb`-Installationen** – kein Snap, kein Flatpak.
+- Installiert **Systemwerkzeuge** und Software **nur** per `apt`, **nur Paketquellen oder `.deb`-Installationen** – kein Snap, kein Flatpak.
 - Vermeidet kommerzielle Cloud-Tools, wo möglich.
 - Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
 
@@ -22,12 +21,9 @@ Konfiguration / Installation eines Ubuntu-Rechners als **erstes eigenes Notebook
 - `configure-desktop.sh` – Passt GNOME-Einstellungen an, muss im Userkontext aufgeführt werden
 
 ## 🔐 Sicherheit & Verantwortung
-	•	Alle Tools stammen aus offiziellen Quellen oder sind als .deb geprüft eingebunden
-	•	Keine automatisierte Konfiguration von Cloud-Logins oder persönlichen Konten
-	•	Eltern/Betreuende sollten Installationen einmal manuell überprüfen
-
-
-
+- Alles aus offiziellen Quellen bzw. als .deb geprüft eingebunden
+- Keine automatisierte Konfiguration von Cloud-Logins oder persönlichen Konten
+- Eltern/Betreuende sollten Installationen einmal manuell überprüfen
 
 
 ## 🧩 Software-Auswahl
