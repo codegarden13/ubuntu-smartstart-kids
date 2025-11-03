@@ -1,19 +1,25 @@
 # Ubuntu Setup Scripts
 
-Konfiguration eines Ubuntu-Rechners für Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen sollen.
+Konfiguration / Installation eines Ubuntu-Rechners als **erstes eigenes Notebook oder Desktop** für Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen sollen.
 
-- **Erstes eigenes Notebook oder Desktop**
 - **Kinder und Jugendliche (ca. 10–14 Jahre)**
 - Interesse an **Technik, Kunst, Medien, Musik, Programmierung**
 - Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtigt)
 
+- Installiert wichtige **Systemwerkzeuge**
+- Software **nur** per `apt`, **nur Paketquellen oder `.deb`-Installationen** – kein Snap, kein Flatpak.
+- Vermeidet kommerzielle Cloud-Tools, wo möglich.
+- Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
+
+
 ## Struktur
 
-- `install.sh` – Einstiegspunkt für die Installation, holt zu installiernde Komponenten aus einer Textdatei
+- `install.sh` – Einstiegspunkt für die Installation, holt zu installiernde Komponenten aus software-list.txt
 - Weitere `install-*.sh`- Dateien für Teilinstallationen
-- `uninstall.sh` – Entfernt installierte Komponenten / optional
-- `install-browser.sh` – Installiert Firefox & Chromium, Edge 
-- `configure-desktop.sh` – Passt GNOME-Einstellungen an
+- toggle-app.sh isnstalliert, wenn die Software fehlt, löscht ansonsten.
+- `uninstall.sh` – Entfernt installierte Komponenten basierenden auf software-list.txt/ optional
+- `install-browser.sh` – Installiert Firefox & Edge 
+- `configure-desktop.sh` – Passt GNOME-Einstellungen an, muss im Userkontext aufgeführt werden
 
 ## 🔐 Sicherheit & Verantwortung
 	•	Alle Tools stammen aus offiziellen Quellen oder sind als .deb geprüft eingebunden
@@ -21,12 +27,8 @@ Konfiguration eines Ubuntu-Rechners für Kinder, die gerne malen, gestalten, exp
 	•	Eltern/Betreuende sollten Installationen einmal manuell überprüfen
 
 
-## 🔧 Was das Skript macht
 
-- Installiert wichtige **Systemwerkzeuge**
-- Fügt kreative, lehrreiche und sichere Software **nur** per `apt` hinzu
-- Nutzt **nur Paketquellen oder `.deb`-Installationen** – kein Snap, kein Flatpak
-- Vermeidet kommerzielle Cloud-Tools, wo möglich.
+
 
 ## 🧩 Software-Auswahl
 
