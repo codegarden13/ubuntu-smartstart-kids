@@ -2,20 +2,23 @@
 
 <p align="center">
   <img src="./logo.png" alt="Illustration des Projekts" width="600">
+  <strong>erster Notebook.</strong><br>
+
+  <a href="#installation">⚙️ Installation</a> • 
+  <a href="#software">📦 Software-Auswahl</a>
 </p>
 
-Konfiguration / Installation eines Ubuntu-Rechners als **erstes eigenes Notebook oder Desktop** für Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen sollen.
+Offene und kompatible Alternative zu Windows / Mac für Kinder und Jugendliche (ca. 10–14 Jahre), die gerne malen, gestalten, experimentieren, programmieren und lernen. Neben Medienverständniss soll **Technik, Kunst, Medien, Musik, Programmierung** gefördert oder ermöglicht werden.
 
-## Fokus 
-- **Kinder und Jugendliche (ca. 10–14 Jahre)** 
-- Fokus Medienverständniss neben **Technik, Kunst, Medien, Musik, Programmierung**
-- Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtigt)
-- Installiert **Systemwerkzeuge** und Software **nur** per `apt`, **nur Paketquellen oder `.deb`-Installationen** – kein Snap, kein Flatpak.
+Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtigt)
 - Vermeidet kommerzielle Cloud-Tools, wo möglich.
+
+## Technische Struktur
+
+- Installiert **Systemwerkzeuge** und Software **nur** per `apt`, **nur Paketquellen oder `.deb`-Installationen** – kein Snap, kein Flatpak.
 - Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
 
 
-## Struktur
 
 - `install.sh` – Einstiegspunkt für die Installation, holt zu installiernde Komponenten aus software-list.txt
 - Weitere `install-*.sh`- Dateien für Teilinstallationen
