@@ -5,7 +5,7 @@
   <strong>erster Notebook.</strong><br>
 
   <a href="#installation">⚙️ Installation</a> • 
-  <a href="#software">📦 Software-Auswahl</a>
+  <a href="#software-auswahl">📦 Software-Auswahl</a>
 </p>
 
 Offene und kompatible Alternative zu Windows / Mac für Kinder und Jugendliche (ca. 10–14 Jahre), die gerne malen, gestalten, experimentieren, programmieren und lernen. Neben Medienverständniss soll **Technik, Kunst, Medien, Musik, Programmierung** gefördert oder ermöglicht werden.
@@ -13,7 +13,7 @@ Offene und kompatible Alternative zu Windows / Mac für Kinder und Jugendliche (
 Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtigt)
 - Vermeidet kommerzielle Cloud-Tools, wo möglich.
 
-## Technische Struktur
+## Installation
 
 - Installiert **Systemwerkzeuge** und Software **nur** per `apt`, **nur Paketquellen oder `.deb`-Installationen** – kein Snap, kein Flatpak.
 - Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
