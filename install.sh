@@ -8,6 +8,25 @@ set -euo pipefail
 export DEBIAN_FRONTEND=noninteractive
 export NEEDRESTART_MODE=a
 
+# --- Timestamped filenames (YYMMDDHH prefix) ---
+TIMESTAMP=$(date +"%y%m%d%H")
+LOG_FILE="${TIMESTAMP}_install-log.txt"
+
+
+# --- Initialize files ---
+
+touch "$LOG_FILE"
+
+echo "===== Installation started: $(date) =====" | tee -a "$LOG_FILE"
+
+# --- Ensure system is up-to-date ---
+echo "[INFO] Updating system..." | tee -a "$LOG_FILE"
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get autoremove --purge -y
+sudo apt-get autoclean -y
+
+
 # basics- remove snap (langsam und müllt die Platte zu)
 # damit muss man zwar den Standard Firefox von Ubuntu rasieren, bekommt aber ein leichteres und klareres System.
 
@@ -37,33 +56,7 @@ Pin-Priority: 1001
 
 sudo apt install firefox -y
 
-
 LIST_FILE="software-list.txt"
-
-
-
-# --- Timestamped filenames (YYMMDDHH prefix) ---
-TIMESTAMP=$(date +"%y%m%d%H")
-LOG_FILE="${TIMESTAMP}_install-log.txt"
-
-
-# --- Initialize files ---
-
-touch "$LOG_FILE"
-
-echo "===== Installation started: $(date) =====" | tee -a "$LOG_FILE"
-
-# --- Ensure system is up-to-date ---
-echo "[INFO] Updating system..." | tee -a "$LOG_FILE"
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get autoremove --purge -y
-sudo apt-get autoclean -y
-
-# --- Ensure jq is available ---
-if ! command -v jq >/dev/null 2>&1; then
-  sudo apt-get install -y jq
-fi
 
 
 
