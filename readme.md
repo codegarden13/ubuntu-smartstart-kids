@@ -1,9 +1,8 @@
-# Ubuntu Setup Scripts
+<h1 align="center">Ubuntu SmartStart Kids 🧒🐧</h1>
 
-
-
-![Logo](logo.png)
-
+<p align="center">
+  <img src="./logo.png" alt="Illustration des Projekts" width="600">
+</p>
 
 Konfiguration / Installation eines Ubuntu-Rechners als **erstes eigenes Notebook oder Desktop** für Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen sollen.
 
