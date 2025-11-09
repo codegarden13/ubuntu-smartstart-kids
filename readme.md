@@ -1,5 +1,10 @@
 # Ubuntu Setup Scripts
 
+
+
+![Logo](logo.png)
+
+
 Konfiguration / Installation eines Ubuntu-Rechners als **erstes eigenes Notebook oder Desktop** für Kinder, die gerne malen, gestalten, experimentieren, programmieren und lernen – und dabei eine moderne, offene Alternative zu Windows/Mac nutzen sollen.
 
 ## Fokus 
@@ -88,7 +93,6 @@ Konfiguration / Installation eines Ubuntu-Rechners als **erstes eigenes Notebook
 ## 🛠️ Nutzung des Installationsscripts
 
 ```bash
-# Auf einem frischen Ubuntu-System:
 git clone https://github.com/codegarden13/ubuntu-smartstart-kids.git
 cd ubuntu-setup
 chmod +x install.sh
