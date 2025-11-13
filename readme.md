@@ -1,11 +1,18 @@
 <h1 align="center">Ubuntu SmartStart Kids 🧒🐧</h1>
 
 <p align="center">
-  <img src="./logo.png" alt="Illustration des Projekts" width="600">
-  <strong>erster Notebook.</strong><br>
+  <img src="./logo.png" alt="Illustration des Projekts" width="100%">
+  <div align="center"><strong>erster Notebook.</strong></div>
 
+
+
+
+<div>
   <a href="#installation">⚙️ Installation</a> • 
   <a href="#software-auswahl">📦 Software-Auswahl</a>
+  <a href="#sicherheit">📦 Software-Auswahl</a>
+  <a href="#sicherheit--verantwortung">🔐 Sicherheit & Verantwortung</a>
+  <div>
 </p>
 
 Offene und kompatible Alternative zu Windows / Mac für Kinder und Jugendliche (ca. 10–14 Jahre), die gerne malen, gestalten, experimentieren, programmieren und lernen. Neben Medienverständniss soll **Technik, Kunst, Medien, Musik, Programmierung** gefördert oder ermöglicht werden.
@@ -18,8 +25,6 @@ Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtig
 - Installiert **Systemwerkzeuge** und Software **nur** per `apt`, **nur Paketquellen oder `.deb`-Installationen** – kein Snap, kein Flatpak.
 - Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
 
-
-
 - `install.sh` – Einstiegspunkt für die Installation, holt zu installiernde Komponenten aus software-list.txt
 - Weitere `install-*.sh`- Dateien für Teilinstallationen
 - toggle-app.sh isnstalliert, wenn die Software fehlt, löscht ansonsten.
@@ -30,12 +35,26 @@ Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtig
 ## 🔐 Sicherheit & Verantwortung
 - Alles aus offiziellen Quellen bzw. als .deb geprüft eingebunden
 - Keine automatisierte Konfiguration von Cloud-Logins oder persönlichen Konten
-- Eltern/Betreuende sollten Installationen einmal manuell überprüfen
+- Eltern/Betreuende sollten Installationen einmal manuell überprüfen.
+
+> ⚠️ Mail-Clients wie `geary` oder `thunderbird` sind **deaktiviert**, da viele Schulen Microsoft 365/Teams verwenden. 
+> Das ist auch der Grund für Edge, der auch auf den Schulrechnern läuft. Die Lesezeichen lassen sich syncronisieren.
+
 
 
 ## 🧩 Software-Auswahl
 
 ### System & Entwicklung
+
+🧩 1. Junior Programming (Concept)
+
+“Junior programming” is a category of educational software aimed at helping children (roughly ages 6–12) learn programming logic through visual, playful interfaces.
+
+It emphasizes:
+	•	Building with blocks rather than typing code.
+	•	Immediate visual feedback (animations, sounds, or actions).
+	•	Concepts like loops, conditions, variables, and events, introduced through games or projects.
+
 | Tool            | Zweck                          |
 |----------------|---------------------------------|
 | `curl`, `git`  | Grundlegende Werkzeuge          |
@@ -50,7 +69,7 @@ Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtig
 | Tool              | Zweck                           |
 |------------------|----------------------------------|
 | `gcompris`        | Lernspiele: Mathe, Logik, Sprachen |
-| `scratch`         | Programmieren mit Bausteinen    |
+| `scratch`         | Visuelles Programmieren mit Bausteinen |
 | `kalgebra`, `kgeography`, `kstars` | KDE Edu Suite: Mathe, Geografie, Astronomie |
 | `libreoffice`     | Text, Tabellen, Präsentationen  |
 | `keepassxc`       | Passwortverwaltung – sicher von Anfang an |
@@ -64,7 +83,7 @@ Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtig
 | `gimp`       | Bildbearbeitung                       |
 | `inkscape`   | Vektor-Grafiken                       |
 | `blender`    | 3D-Modellierung & Animation           |
-| `darktable`  | Fotobearbeitung (RAW-Entwicklung)     |
+| `rawTherapee`  | Fotobearbeitung (RAW-Entwicklung)     |
 | `shotwell`   | Bildverwaltung                        |
 | `kdenlive`   | Videos schneiden                      |
 | `imagemagick`| Kommandozeilen-Bildbearbeitung        |
@@ -82,8 +101,6 @@ Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtig
 
 ### Kommunikation / Schule
 
-> ⚠️ Mail-Clients wie `geary` oder `thunderbird` sind **deaktiviert**, da viele Schulen Microsoft 365/Teams verwenden. 
-> Das ist auch der Grund für Edge, der auch auf den Schulrechnern läuft. Die Lesezeichen lassen sich syncronisieren.
 
 | Tool        | Zweck                                 |
 |-------------|----------------------------------------|
