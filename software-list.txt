@@ -11,9 +11,9 @@ htop
 samba               # Freigabe
 
 
-tuxguitar
 
-# geary               # Mail Client Moderner 
+
+# geary             # Mail Client Moderner 
 # thunderbird       # Mail Client Klassisch
 keepassxc           # Passwortverwaltung
 
@@ -37,12 +37,12 @@ kalgebra
 gcompris            # Sammlung kleiner Lernspiele, Mathe, Logik, Sprachen
 
 scratch             # Programmieren Lernen mit Bauklötzen
-# squeak
+# squeak            # Komponente 
 
+#####################################
+#  Bilder
+######################################
 
-
-# Bilder
-########
 imagemagick
 shotwell
 blender
@@ -52,10 +52,12 @@ darktable
 kdenlive
 krita
 
-# Audio Apps and components
-############################
-
-audacity
+#######################################
+#  Musik                              # 
+#######################################
+audacity            # Tonaufnahmen 
+guitarix            # virtueller Verstärker
+tuxguitar
 vlc
 #pipewire
 #pipewire-audio-clients
