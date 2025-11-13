@@ -11,8 +11,6 @@ export NEEDRESTART_MODE=a
 # --- Timestamped filenames (YYMMDDHH prefix) ---
 TIMESTAMP=$(date +"%y%m%d%H")
 LOG_FILE="${TIMESTAMP}_install-log.txt"
-
-
 # --- Initialize files ---
 
 touch "$LOG_FILE"
@@ -26,12 +24,10 @@ sudo apt-get upgrade -y
 sudo apt-get autoremove --purge -y
 sudo apt-get autoclean -y
 
-
 # basics- remove snap (langsam und müllt die Platte zu)
 # damit muss man zwar den Standard Firefox von Ubuntu rasieren, bekommt aber ein leichteres und klareres System.
 
 sudo snap remove --purge firefox
-
 sudo snap remove --purge snap-store
 sudo snap remove --purge gnome-42-2204
 sudo snap remove --purge gtk-common-themes
@@ -57,8 +53,6 @@ Pin-Priority: 1001
 sudo apt install firefox -y
 
 LIST_FILE="software-list.txt"
-
-
 
 # --- Install APT package ---
 install_apt_pkg() {
