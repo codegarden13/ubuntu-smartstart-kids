@@ -45,11 +45,11 @@ sudo apt install firefox -y
 
 
 # ==========================================
-# MS Edge für Ubuntu (Stable-Version, ohne Snap)
+# MS Edge für Ubuntu 
 # ==========================================
 
 # ==========================================
-# Installiert Microsoft Edge, falls nicht vorhanden
+# Installiert Microsoft Edge (Stable-Version, ohne Snap), falls nicht vorhanden
 # Tested on Ubuntu 22.04+
 # ==========================================
 
