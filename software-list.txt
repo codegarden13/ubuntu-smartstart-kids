@@ -18,10 +18,24 @@ tuxguitar
 keepassxc           # Passwortverwaltung
 
 libreoffice         # Office - Text, Präsentation, Tabellen
-kalgebra            # KDE Edu Suite
-kgeography          # KDE Edu Suite
-kstars              # KDE Edu Suite
+
+#######################################
+#    KDE Edu Suite („KDE Education“)  # 
+#######################################
+
+# Paket-Meta-Set mit Lern- und Bildungsprogrammen wie
+kstars              # (Astronomie),
+#	•	Kalzium (Chemie),
+kgeography 
+kalgebra 
+#Parley
+#Cantor, 
+#KTurtle 
+##################################
+
+
 gcompris            # Sammlung kleiner Lernspiele, Mathe, Logik, Sprachen
+
 scratch             # Programmieren Lernen mit Bauklötzen
 # squeak
 
