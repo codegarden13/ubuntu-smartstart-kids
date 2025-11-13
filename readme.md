@@ -4,9 +4,6 @@
   <img src="./logo.png" alt="Illustration des Projekts" width="100%">
   <div align="center"><strong>erster Notebook.</strong></div>
 
-
-
-
 <div>
   <a href="#installation">⚙️ Installation</a> • 
   <a href="#software-auswahl">📦 Software-Auswahl</a>
@@ -42,7 +39,7 @@ Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtig
 
 
 
-## 🧩 Software-Auswahl
+## Software-Auswahl
 
 ### System & Entwicklung
 
@@ -60,10 +57,10 @@ It emphasizes:
 | `curl`, `git`  | Grundlegende Werkzeuge          |
 | `openssh`      | Fernwartung, später auch hilfreich |
 | `python3`, `pip`, `npm` | Einstieg ins Programmieren |
-| `vscode`       | Beliebter Code-Editor (DEB-Version) |
+| `vscode`       | erweiterbarer Code-Editor: kann fast alles ausser Kaffe kochen. |
 | `node`, `docker`, `powershell` | Für spätere Tech-Experimente |
 
----
+
 
 ### Lernen & Bildung
 | Tool              | Zweck                           |
@@ -74,7 +71,7 @@ It emphasizes:
 | `libreoffice`     | Text, Tabellen, Präsentationen  |
 | `keepassxc`       | Passwortverwaltung – sicher von Anfang an |
 
----
+
 
 ### Kreativität (Bild & Video)
 | Tool         | Zweck                                |
@@ -94,10 +91,10 @@ It emphasizes:
 | Tool        | Zweck                                |
 |-------------|---------------------------------------|
 | `audacity`  | Audioaufnahme & Bearbeitung           |
+| `tuxguitar`  | Gitarren-notation          |
+| `audacity`  | virtueller Gitarrenverstärker          |
 | `vlc`       | Universeller Medienplayer             |
 | *(Optional: `sonic-pi`, `pipewire`)* | Für Musik-Experimente – kann später nachinstalliert werden |
-
----
 
 ### Kommunikation / Schule
 
@@ -107,7 +104,7 @@ It emphasizes:
 | `edge`    | Webbrowser für maximale Office/Teams-Kompatibilität |
 | `firefox`    | Webbrowser für privacy|
 
----
+
 
 ## 🛠️ Nutzung des Installationsscripts
 
