@@ -62,6 +62,7 @@ It emphasizes:
 
 | Tool            | Zweck                          |
 |----------------|---------------------------------|
+| `keepassxc`       | Passwortverwaltung – sicher von Anfang an |
 | `curl`, `git`  | Grundlegende Werkzeuge          |
 | `openssh`      | Fernwartung, später auch hilfreich |
 | `python3`, `pip`, `npm` | Einstieg ins Programmieren |
@@ -83,7 +84,8 @@ Im Detail sind die Applikationen in  [Lernhilfen](./Lernhilfen.md) beschrieben.
 | `scratch`         | Visuelles Programmieren mit Bausteinen |
 | `kalgebra`, `kgeography`, `kstars` | KDE Edu Suite: Mathe, Geografie, Astronomie |
 | `libreoffice`     | Text, Tabellen, Präsentationen  |
-| `keepassxc`       | Passwortverwaltung – sicher von Anfang an |
+| `parley`     | Karteikasten - nicht nur für Vokabeln, siehe [Lernhilfen Englisch](./Lernhilfen.md#englisch)|
+
 
 ### Kreativität (Bild & Video)
 
