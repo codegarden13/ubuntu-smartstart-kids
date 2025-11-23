@@ -41,8 +41,7 @@ Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtig
 
 ## Software-Auswahl
 
-### System & Entwicklung
-
+### (System & Entwicklung)
 🧩 1. Junior Programming (Concept)
 
 “Junior programming” is a category of educational software aimed at helping children (roughly ages 6–12) learn programming logic through visual, playful interfaces.
@@ -71,9 +70,8 @@ It emphasizes:
 | `libreoffice`     | Text, Tabellen, Präsentationen  |
 | `keepassxc`       | Passwortverwaltung – sicher von Anfang an |
 
-
-
 ### Kreativität (Bild & Video)
+
 | Tool         | Zweck                                |
 |--------------|---------------------------------------|
 | `krita`      | Digitale Malerei & Zeichnen           |
@@ -85,28 +83,26 @@ It emphasizes:
 | `kdenlive`   | Videos schneiden                      |
 | `imagemagick`| Kommandozeilen-Bildbearbeitung        |
 
----
 
 ### Audio, Musik & Medien
+
 | Tool        | Zweck                                |
 |-------------|---------------------------------------|
 | `audacity`  | Audioaufnahme & Bearbeitung           |
+| `guitarix`  |virtueller Gitarrenverstärker          |
 | `tuxguitar`  | Gitarren-notation          |
-| `audacity`  | virtueller Gitarrenverstärker          |
 | `vlc`       | Universeller Medienplayer             |
-| *(Optional: `sonic-pi`, `pipewire`)* | Für Musik-Experimente – kann später nachinstalliert werden |
+| (Optional: `sonic-pi`) | Für Musik-Experimente – kann später nachinstalliert werden |
 
 ### Kommunikation / Schule
-
 
 | Tool        | Zweck                                 |
 |-------------|----------------------------------------|
 | `edge`    | Webbrowser für maximale Office/Teams-Kompatibilität |
 | `firefox`    | Webbrowser für privacy|
+| `teams`    | nur via MS-Edge-Browser|
 
-
-
-## 🛠️ Nutzung des Installationsscripts
+## 🛠️ Nutzung des Installationsscripts (⚠️ wfm)
 
 ```bash
 git clone https://github.com/codegarden13/ubuntu-smartstart-kids.git
