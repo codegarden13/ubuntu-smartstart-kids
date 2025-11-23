@@ -7,24 +7,27 @@
 <div>
   <a href="#installation">⚙️ Installation</a> • 
   <a href="#software-auswahl">📦 Software-Auswahl</a>
-  <a href="#sicherheit">📦 Software-Auswahl</a>
-  <a href="#sicherheit--verantwortung">🔐 Sicherheit & Verantwortung</a>
+  <a href="#sicherheit--verantwortung">🔐 Sicherheit</a>
   <div>
 </p>
 
-# ubuntu-smartstart-kids 
+Testumgebung: VM (UTM) unter MacOs.
 
-... ist meist in use. Getestet wird mit einer VM (UTM) unter MacOs.
+## Ziel
 
 - Offene / kompatible Alternative neben  Windows / Mac für Kinder und Jugendliche (ca. 10–14 Jahre), die gerne malen, gestalten, experimentieren, programmieren und lernen. 
 - Neben Medienverständnis soll **Technik, Kunst, Medien, Musik, Programmierung** gefördert oder ermöglicht werden
 - kompatible Schulumgebung mit **Microsoft Teams / O365**
 
-## Installation
+<details>
+
+## Installation und Desktop experience
+
 
 - Installiert per `apt`, **nur offizielle Paketquellen oder `.deb`-Installationen** , in Ausnahmefällen Flatpak.
 
 - Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
+
 
 - `install.sh` – Einstiegspunkt für die Installation, holt zu installiernde Komponenten aus software-list.txt
 - Weitere `install-*.sh`- Dateien für Teilinstallationen
@@ -34,7 +37,17 @@
 - `configure-desktop.sh` – Passt GNOME-Einstellungen an, muss im Userkontext aufgeführt werden
 
 
-## Desktop - Expierience
+## Desktop - Erfahrung
+
+### Night Light aktivieren:
+1.	Einstellungen öffnen- > Bildschirm oder Anzeige auswählen
+2.	Night Light einschalten
+3.	Optional: Zeitplan einstellen
+		•	Sonnenuntergang bis Sonnenaufgang
+		•	oder eigene Zeiten
+.	Farbtemperatur nach Geschmack einstellen
+
+</details>
 
 ## 🔐 Sicherheit & Verantwortung
 - Alles aus offiziellen Quellen bzw. als .deb geprüft eingebunden
@@ -108,6 +121,11 @@ It emphasizes:
 | `edge`    | Webbrowser für maximale Office/Teams-Kompatibilität |
 | `firefox`    | Webbrowser für privacy|
 | `teams`    | nur via MS-Edge-Browser|
+
+
+
+
+
 
 ## 🛠️ Nutzung des Installationsscripts (⚠️ wfm)
 
