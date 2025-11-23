@@ -24,12 +24,12 @@ libreoffice         # Office - Text, Präsentation, Tabellen
 #######################################
 
 # Paket-Meta-Set mit Lern- und Bildungsprogrammen wie
-kstars              # (Astronomie),
-#	•	Kalzium (Chemie),
+- kstars              # (Astronomie),
+#	- Kalzium       # (Chemie),
 kgeography 
 kalgebra 
 #Parley
-#Cantor, 
+#Cantor
 #KTurtle 
 ##################################
 

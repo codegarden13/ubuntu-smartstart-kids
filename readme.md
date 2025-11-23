@@ -12,14 +12,18 @@
   <div>
 </p>
 
-Offene und kompatible Alternative zu Windows / Mac für Kinder und Jugendliche (ca. 10–14 Jahre), die gerne malen, gestalten, experimentieren, programmieren und lernen. Neben Medienverständniss soll **Technik, Kunst, Medien, Musik, Programmierung** gefördert oder ermöglicht werden.
+# ubuntu-smartstart-kids 
 
-Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtigt)
-- Vermeidet kommerzielle Cloud-Tools, wo möglich.
+... ist meist in use. Getestet wird mit einer VM (UTM) unter MacOs.
+
+- Offene / kompatible Alternative neben  Windows / Mac für Kinder und Jugendliche (ca. 10–14 Jahre), die gerne malen, gestalten, experimentieren, programmieren und lernen. 
+- Neben Medienverständnis soll **Technik, Kunst, Medien, Musik, Programmierung** gefördert oder ermöglicht werden
+- kompatible Schulumgebung mit **Microsoft Teams / O365**
 
 ## Installation
 
-- Installiert **Systemwerkzeuge** und Software **nur** per `apt`, **nur Paketquellen oder `.deb`-Installationen** – kein Snap, kein Flatpak.
+- Installiert per `apt`, **nur offizielle Paketquellen oder `.deb`-Installationen** , in Ausnahmefällen Flatpak.
+
 - Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
 
 - `install.sh` – Einstiegspunkt für die Installation, holt zu installiernde Komponenten aus software-list.txt
@@ -28,6 +32,9 @@ Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtig
 - `uninstall.sh` – Entfernt installierte Komponenten basierenden auf software-list.txt/ optional
 - `install-browser.sh` – Installiert Firefox & Edge 
 - `configure-desktop.sh` – Passt GNOME-Einstellungen an, muss im Userkontext aufgeführt werden
+
+
+## Desktop - Expierience
 
 ## 🔐 Sicherheit & Verantwortung
 - Alles aus offiziellen Quellen bzw. als .deb geprüft eingebunden
@@ -39,9 +46,9 @@ Schulumgebung mit **Microsoft Teams / O365** (Kompatibilität ist berücksichtig
 
 
 
-## Software-Auswahl
 
-### (System & Entwicklung)
+
+## (System & Entwicklung)
 🧩 1. Junior Programming (Concept)
 
 “Junior programming” is a category of educational software aimed at helping children (roughly ages 6–12) learn programming logic through visual, playful interfaces.

@@ -43,8 +43,11 @@ Du kannst damit sofort:
 
 ### cleanup 
 
-sudo apt remove qjackctl jackd jackd2 jackd2-firewire libjack-jackd2-0
-sudo apt --fix-broken install
+```sh
+sudo apt remove qjackctl jackd jackd2 jackd2-firewire libjack-jackd2-0 meterbridge jack-capture
+sudo apt autoremove
+```
+
 
 ### setup
 

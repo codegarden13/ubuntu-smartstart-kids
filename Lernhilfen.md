@@ -4,6 +4,10 @@
 
 Mehr Lernhilfe geht fast nicht - und zusätzlich kann man offizielle Übungsbücher erwerben.
 
+*Parley gibt es nur unter Linux*, aber man kann es Virtualisieren (z.b mit UTM). 
+
+
+
 ```sh
 apt install parley
 ```
