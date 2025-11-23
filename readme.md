@@ -72,6 +72,8 @@ It emphasizes:
 
 ## Berücksichtigte (Lern) Software
 
+Im Detail sind die Applikationen in  [Lernhilfen](./Lernhilfen.md) beschrieben.
+
 <details>
 
 ### Lernen & Bildung
