@@ -22,22 +22,38 @@ apt install parley
 # Mathe
 
 <details>
+
 ## Links
 ## Installation
+
 ```sh
 apt install kalgebra
 ```
 </details>
+
+
 # Deutsch
+
+<details>
+
 ## Links
 ## Installation
 #todo:
+
+</details>
+
+
 # Geo
+
+<details>
 ## Links
 ## Installation
+
 ```sh
 apt install kgeography
 ```
+
+</details>
 
 # Spezifische Lernhilfen 
 
