@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="./logo.png" alt="Illustration des Projekts" width="100%">
-  <div align="center"><strong>erster Notebook.</strong></div>
+  <div align="center"><strong>Mein erster Notebook / My first notebook.</strong></div>
 
 <div>
   <a href="#installation">⚙️ Installation</a> • 
@@ -13,21 +13,16 @@
 
 Testumgebung: VM (UTM) unter MacOs.
 
-## Ziel
+## Konzept
 
-- Offene / kompatible Alternative neben  Windows / Mac für Kinder und Jugendliche (ca. 10–14 Jahre), die gerne malen, gestalten, experimentieren, programmieren und lernen. 
-- Neben Medienverständnis soll **Technik, Kunst, Medien, Musik, Programmierung** gefördert oder ermöglicht werden
-- kompatible Schulumgebung mit **Microsoft Teams / O365**
+Offene / kompatible Alternative neben  Windows / Mac für Kinder und Jugendliche (ca. 10–14 Jahre), die gerne malen, gestalten, experimentieren, programmieren und lernen. 
 
 <details>
 
+- Neben Medienverständnis soll **Technik, Kunst, Medien, Musik, Programmierung** gefördert oder ermöglicht werden
+- kompatible Schulumgebung mit **Microsoft Teams / O365**
+
 ## Installation und Desktop experience
-
-
-- Installiert per `apt`, **nur offizielle Paketquellen oder `.deb`-Installationen** , in Ausnahmefällen Flatpak.
-
-- Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
-
 
 - `install.sh` – Einstiegspunkt für die Installation, holt zu installiernde Komponenten aus software-list.txt
 - Weitere `install-*.sh`- Dateien für Teilinstallationen
@@ -49,16 +44,21 @@ Testumgebung: VM (UTM) unter MacOs.
 
 </details>
 
+
+
 ## 🔐 Sicherheit & Verantwortung
+
+<details>
+
+- Installiert per `apt`, **nur offizielle Paketquellen oder `.deb`-Installationen** , in Ausnahmefällen Flatpak.
+
+- Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
 - Alles aus offiziellen Quellen bzw. als .deb geprüft eingebunden
 - Keine automatisierte Konfiguration von Cloud-Logins oder persönlichen Konten
 - Eltern/Betreuende sollten Installationen einmal manuell überprüfen.
 
 > ⚠️ Mail-Clients wie `geary` oder `thunderbird` sind **deaktiviert**, da viele Schulen Microsoft 365/Teams verwenden. 
 > Das ist auch der Grund für Edge, der auch auf den Schulrechnern läuft. Die Lesezeichen lassen sich syncronisieren.
-
-
-
 
 
 ## (System & Entwicklung)
@@ -79,7 +79,11 @@ It emphasizes:
 | `vscode`       | erweiterbarer Code-Editor: kann fast alles ausser Kaffe kochen. |
 | `node`, `docker`, `powershell` | Für spätere Tech-Experimente |
 
+</details>
 
+## Berücksichtigte (Lern) Software
+
+<details>
 
 ### Lernen & Bildung
 | Tool              | Zweck                           |
@@ -122,10 +126,7 @@ It emphasizes:
 | `firefox`    | Webbrowser für privacy|
 | `teams`    | nur via MS-Edge-Browser|
 
-
-
-
-
+<d/etails>
 
 ## 🛠️ Nutzung des Installationsscripts (⚠️ wfm)
 
