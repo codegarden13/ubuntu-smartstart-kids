@@ -11,15 +11,17 @@
   <div>
 </p>
 
-Testumgebung: VM (UTM) unter MacOs.
+Test: VM (UTM) unter MacOs.
+Live: Ubuntu 24 LTS
 
 ## Konzept
 
-Offene / kompatible Alternative neben  Windows / Mac für Kinder und Jugendliche (ca. 10–14 Jahre), die gerne malen, gestalten, experimentieren, programmieren und lernen. 
+Kompatible und preiswerte Alternative für Kinder ab 10 Jahre)
 
 <details>
 
 - Neben Medienverständnis soll **Technik, Kunst, Medien, Musik, Programmierung** gefördert oder ermöglicht werden
+- malen, gestalten, experimentieren, programmieren und lernen stehen im Fokus. 
 - kompatible Schulumgebung mit **Microsoft Teams / O365**
 
 ## Installation und Desktop experience
@@ -44,21 +46,6 @@ Offene / kompatible Alternative neben  Windows / Mac für Kinder und Jugendliche
 
 </details>
 
-
-
-## 🔐 Sicherheit & Verantwortung
-
-<details>
-
-- Installiert per `apt`, **nur offizielle Paketquellen oder `.deb`-Installationen** , in Ausnahmefällen Flatpak.
-
-- Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
-- Alles aus offiziellen Quellen bzw. als .deb geprüft eingebunden
-- Keine automatisierte Konfiguration von Cloud-Logins oder persönlichen Konten
-- Eltern/Betreuende sollten Installationen einmal manuell überprüfen.
-
-> ⚠️ Mail-Clients wie `geary` oder `thunderbird` sind **deaktiviert**, da viele Schulen Microsoft 365/Teams verwenden. 
-> Das ist auch der Grund für Edge, der auch auf den Schulrechnern läuft. Die Lesezeichen lassen sich syncronisieren.
 
 
 ## (System & Entwicklung)
@@ -138,3 +125,19 @@ chmod +x install.sh
 ```
 
 ... oder als ZIP herunterladen und klassisch (1990) herumstöbern. 🎸
+
+
+## 🔐 Sicherheit & Verantwortung
+
+<details>
+
+- Installiert per `apt`, **nur offizielle Paketquellen oder `.deb`-Installationen** , in Ausnahmefällen Flatpak.
+
+- Deinstalliert zuerst Snap von Ubuntu, um das als einziges damit vorinstallierte Programm Firefox durch den offiziellen Firefox zu ersetzen (APT)
+- Alles aus offiziellen Quellen bzw. als .deb geprüft eingebunden
+- Keine automatisierte Konfiguration von Cloud-Logins oder persönlichen Konten
+- Eltern/Betreuende sollten Installationen einmal manuell überprüfen.
+
+> ⚠️ Mail-Clients wie `geary` oder `thunderbird` sind **deaktiviert**, da viele Schulen Microsoft 365/Teams verwenden. 
+> Das ist auch der Grund für Edge, der auch auf den Schulrechnern läuft. Die Lesezeichen lassen sich syncronisieren.
+
