@@ -1,19 +1,30 @@
 # Englisch
 
-**Parley** (Karteikastenprogramm) erlaubt Import aller Übungen aus dem offiziellen **"Greenline1" (Klett-Verlag)**, fünfte Klasse. Dort kann man über den Buchcode auch die Audio-Beispiele zum Buch herunterladen. Mehr Lernhilde geht fast nicht - und zusätlich kann man offizielle Übungsbücher erwerben.
+**Parley** (Karteikastenprogramm) erlaubt Import aller Übungen aus dem offiziellen **"Greenline1" (Klett-Verlag)**, fünfte Klasse. Dort kann man über den Buchcode auch die Audio-Beispiele zum Buch herunterladen. 
+
+Mehr Lernhilfe geht fast nicht - und zusätzlich kann man offizielle Übungsbücher erwerben.
+
+```sh
+apt install parley
+```
 
 # Mathe
-#todo:
+```sh
+apt install kalgebra
+```
 
 # Deutsch
 #todo:
 # Geo
-#todo:
+```sh
+apt install kgeography
+```
 
-# Spezifische Lernhilfen
+# Spezifische Lernhilfen 
 
 ## Teams
-ob es eine Lernhilfe ist, weiss ich nicht. Es ist zumindest eine Lernhilfe um Teams zu lernen.
+ob es eine Lernhilfe ist, weiss ich nicht. Es ist zumindest eine Lernhilfe um Teams zu lernen. 
+Lass es auf Edge laufen.
 
 ## Bycs 
-(vormals Mebis)
+(Bisher: Mebis)
