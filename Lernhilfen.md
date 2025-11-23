@@ -1,4 +1,5 @@
 # Englisch
+## Schulbücher: Greenline 1 und 2
 
 <details>
 
@@ -21,6 +22,10 @@ apt install parley
 
 # Mathe
 
+## Schulbücher: Green Line 1 Bayern – Workbook mit Audios 
+ISBN 978-3-12-803015-9
+
+
 <details>
 
 ## Links
@@ -33,6 +38,9 @@ apt install kalgebra
 
 
 # Deutsch
+
+## Schulbücher: Deutschbuch Arbeitsheft 5
+ISBN 978-3-06-062782-0
 
 <details>
 
