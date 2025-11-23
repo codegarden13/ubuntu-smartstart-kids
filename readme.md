@@ -1,18 +1,20 @@
 <h1 align="center">Ubuntu SmartStart Kids 🧒🐧</h1>
-
+<p align="center"><em>Dankbar für die Zeit, dieses Projekt machen zu können.</em></p>
 <p align="center">
   <img src="./logo.png" alt="Illustration des Projekts" width="100%">
   <div align="center"><strong>Mein erster Notebook / My first notebook.</strong></div>
 
 <div>
   <a href="#installation">⚙️ Installation</a> • 
-  <a href="#software-auswahl">📦 Software-Auswahl</a>
+  <a href="#berücksichtigte-lern-software">📦 Software-Auswahl</a>
   <a href="#sicherheit--verantwortung">🔐 Sicherheit</a>
   <div>
 </p>
 
-Test: VM (UTM) unter MacOs.
-Live: Ubuntu 24 LTS
+
+
+- Test: VM (UTM) unter MacOs.
+- Live: Ubuntu 24 LTS
 
 ## Konzept
 
