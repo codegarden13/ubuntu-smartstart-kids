@@ -1,32 +1,41 @@
-# Englisch
-## Schulbücher: Greenline 1 und 2
+# Lernhilfen 
+5.Klasse
+## Hauptfächer
 
 <details>
+  <summary>Englisch</summary>
 
-Mit **Parley** (Karteikastenprogramm) kann man die Übungen aus dem offiziellen **"Greenline1" von Klett-Verlag.de**, fünfte Klasse mportieren.
+### Schulbücher
+- Green Line 1
+
+### Lernhilfen
+- Mit **Parley** (Karteikastenprogramm) kann man Übungen aus dem offiziellen **"Greenline1" von Klett-Verlag.de**, fünfte Klasse mportieren.
 Von dort kann man über den Buchcode nach Registrierung auch die Audio-Beispiele dazu herunterladen. 
 
 Mehr Lernhilfe geht fast nicht - und zusätzlich kann man offizielle Übungsbücher erwerben.
 
 *Parley gibt es nur unter Linux*, aber man kann es Virtualisieren (z.b mit UTM). 
 
-## Links
-
-## Installation
+Linux-Installation:
 
 ```sh
 apt install parley
 ```
-
+- Green Line 1 Fit für Tests und Klassenarbeiten
 </details>
 
-# Mathe
-
-## Schulbücher: Green Line 1 Bayern – Workbook mit Audios 
-ISBN 978-3-12-803015-9
-
-
 <details>
+  <summary>Mathe</summary>
+
+### Schulbücher
+- Lambacher Schweizer 5
+### Lernhilfen
+- das ultimative Probenbuch Mathematik 5.Klasse
+- Lambacher Schweizer Arbeitsheft mit Lösungen
+- Mathegym - App eventuell mit Schullizenz
+
+
+
 
 ## Links
 ## Installation
@@ -37,42 +46,71 @@ apt install kalgebra
 </details>
 
 
-# Deutsch
 
-## Schulbücher: Deutschbuch Arbeitsheft 5
-ISBN 978-3-06-062782-0
 
 <details>
+  <summary>Deutsch</summary>
 
-## Links
-## Installation
-#todo:
-
+### Schulbücher
+- Deutschbuch Arbeitsheft 5 ISBN 978-3-06-062782-0
+### Lernhilfen
+- Deutschbuch Schulaufgabentrainer
 </details>
 
 
-# Geo
+
+</details>
+
+## Nebenfächer
+
+
 
 <details>
-## Links
-## Installation
+<summary>Geo</summary>
 
+### Schulbücher
+- Dierke Geographie 5
+### Lernhilfen
+
+- Kgeography
 ```sh
 apt install kgeography
 ```
 
 </details>
 
+<details>
+<summary>Natur und Technik</summary>
+
+
+### Schulbücher
+
+- Nautilus 5 Natur und Technik Schwerpunkt Biologie 
+### Lernhilfen
+
+</details>
+
+
+<details>
+<summary>Ethik</summary>
+
+
+### Schulbücher
+-Ethikos 5
+
+</details>
+
+
+
+
 # Spezifische Lernhilfen 
 
-
-## Teams
-Bb es eine Lernhilfe ist, weiss ich nicht. Es ist zumindest eine Lernhilfe um Teams zu lernen. 
+- **Teams** - Ob  es eine Lernhilfe ist, weiss ich nicht. Es ist zumindest eine Lernhilfe um Teams zu lernen. 
 Lass es auf Edge laufen.
-### Links
+
 
 
 
 ## Bycs 
-### Links
+
 (Bisher: Mebis)
