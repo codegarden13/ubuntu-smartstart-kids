@@ -1,0 +1,45 @@
+########################################
+# Logs & Temporary Files
+########################################
+
+# Log files
+*.log
+
+# Temporary output
+*.tmp
+
+
+########################################
+# Project Internal / Not for Versioning
+########################################
+
+# Unused scripts or experimental files
+_unused/
+
+# Personal or internal notes
+_notes.md
+_install-notes.md
+
+# System configuration scripts not meant for versioning
+configure-users.sh
+
+
+########################################
+# Personal Notes / Lists
+########################################
+
+linkliste.txt
+
+
+########################################
+# Editor & IDE Project Files
+########################################
+
+# VS Code project settings
+.vscode/
+
+# Swap files
+*.swp
+
+# macOS Finder metadata
+.DS_Store
