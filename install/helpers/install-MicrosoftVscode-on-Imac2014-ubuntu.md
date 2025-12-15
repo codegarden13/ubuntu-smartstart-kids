@@ -17,7 +17,7 @@ code --use-gl=swiftshader # langsamer aber stabil
 
 Globales Icon-override:
 
-s```sh
+```sh
 udo mkdir -p /usr/local/share/applications
 sudo cp /usr/share/applications/code.desktop /usr/local/share/applications/
 sudo nano /usr/local/share/applications/code.desktop
