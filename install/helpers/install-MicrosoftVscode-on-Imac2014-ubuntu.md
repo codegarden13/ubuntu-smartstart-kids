@@ -19,8 +19,8 @@ sudo cp /usr/share/applications/code.desktop /usr/local/share/applications/
 
 ```
 
-
-Vscode-Icon für alle Benutzer: /usr/local/share/applications
+**Icon für alle Benutzer: /usr/local/share/applications**
+(Override: Gleichnamige Dateien hier **überschreiben** das ursprüngliche Icon für alle Benutzer)
 
 ```conf
 
